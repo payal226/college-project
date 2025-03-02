@@ -1,0 +1,221 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.SecondPage{
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+.SubPage{
+    height:100%;
+    width:100%;
+    /* background-color:brown; */
+}
+.SubPage button{
+    height:4.5vw;
+    width:19vw;
+    border-radius:50px;
+    font-size:1.4vw;
+    background-color:chocolate;
+    border:none;
+    color:white;
+    margin-top:5vw;
+    margin-left:38vw;
+}
+.SubPage button:hover{
+    background-color:blue;
+}
+.MainInfo{
+    height:40px;
+    width:85%;
+    background-color:rgb(253, 198, 206);
+    margin-left:8vw;
+    margin-top:3vw;
+    display:flex;
+}
+.info-1{
+    height:100%;
+    width:33.5%;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+}
+.info-1 p{
+     font-size:1.3vw;
+     color:white;
+}
+.info-2{
+    height:100%;
+    width:33%;
+    /* background-color:chartreuse; */
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+}
+.info-2 p{
+    font-size:1.3vw;
+}
+.info-3{
+    height:100%;
+    width:33.5%;
+    /* background-color:crimson; */
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+}
+.info-3 p{
+    font-size:1.3vw;
+}
+.SubPage p{
+    font-size:1.3vw;
+    padding-top:1vw;
+}
+.Description{
+    height:20%;
+    width:60%;
+    /* background-color:darkgoldenrod; */
+    margin-left:8vw;
+    /* margin-top:1vw; */
+}
+.BookingProcess{
+    height:40%;
+    width:60%;
+    /* background-color:darksalmon; */
+    margin-left:25vw;
+    margin-top:3.8vw;
+    
+}
+.BookingProcess h1{
+    color:chocolate;
+    font-size:3.9vw;
+}
+.BookingProcess p{
+    font-size:1.3vw;
+    text-align:center;
+}
+
+
+.PageSupport{
+    height:100%;
+    width:100%;
+    /* background-color:blueviolet; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.MainPart{
+    height:90%;
+    width:78%;
+    background-color:rgb(185, 141, 141);
+}
+.MainPart h1{
+    padding-top:8vw;
+    padding-left:30vw;
+    color:chocolate;
+}
+.MainBox{
+    height:60%;
+    width:100%;
+    /* background-color:brown; */
+    margin-top:4vw;
+    display:flex;
+    justify-content:space-evenly;
+}
+.Box-1{
+    height:97%;
+    width:28%;
+    background-color:white;
+    
+}
+.iconBox{
+    height:30%;
+    width:100%;
+    /* background-color:blue; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.iconInfo{
+    height:70%;
+    width:100%;
+    /* background-color:cyan; */
+    text-align:center;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+.iconInfo h2{
+    color:cyan;
+}
+.iconInfo h4{
+    color:chocolate;
+}
+.iconInfo p{
+    font-size:1.2vw;
+}
+
+.Box-2{
+    height:97%;
+    width:28%;
+    background-color:white;
+}
+.iconBox-1{
+    height:30%;
+    width:100%;
+    /* background-color:blue; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.iconInfo-1{
+    height:70%;
+    width:100%;
+    /* background-color:cyan; */
+    text-align:center;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+.iconInfo-1 h2{
+    color:cyan;
+}
+.iconInfo-1 p{
+    font-size:1.2vw;
+}
+.Box-3{
+    height:97%;
+    width:28%;
+    background-color:white;
+}
+.iconBox-2{
+    height:30%;
+    width:100%;
+    /* background-color:blue; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.iconInfo-2{
+    height:70%;
+    width:100%;
+    /* background-color:cyan; */
+    text-align:center;
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+}
+.iconInfo-2 h2{
+    color:cyan;
+}
+.iconInfo-2 p{
+    font-size:1.2vw;
+}
